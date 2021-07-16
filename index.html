@@ -4,26 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Fruity 🍊</title>
   </head>
   <body>
-    <nav>
-      <h1>Fruity.</h1>
-      <div>
-        <input type="search" />
+    <nav class="navbar">
+      <h1 class="logo">Fruity.</h1>
+      <div class="search">
+        <input placeholder="Search for fruits here.." />
       </div>
-      <ul>
-        <li>
-          <a href="">Home</a>
+      <ul class="links">
+        <li class="link active">
+          <a href="/">home</a>
         </li>
-        <li>
-          <a href="">About</a>
+        <li class="link">
+          <a href="/about">about</a>
         </li>
-        <li>
-          <a href="">Contact</a>
+        <li class="link">
+          <a href="/contact">contact</a>
         </li>
       </ul>
-      <button>Signup/Login</button>
+      <button class="btn">Signup/Login</button>
     </nav>
+    <div class="splash">
+      <div class="splash-text">
+        <h1>Welcome to Fruity</h1>
+        <p>Where you can discover fruits and learn more about them.</p>
+        <button class="btn splash-btn">Signup/Login</button>
+      </div>
+      <div class="splash-img"></div>
+    </div>
   </body>
 </html>
